@@ -1,0 +1,81 @@
+/* colors and fonts */
+body{
+   background-color:#E4E4E1; 
+   color: black;
+   font-size: 16px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #BA9B55;
+}
+a:hover {
+    color: #BA9B55;
+}
+
+/* Custom designs with class */
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+.card-designer {
+    background-color: white;
+    padding: 40px;
+    box-shadow:0px 5px 10px #ba9b55;
+    border-radius: 4%;
+    margin: 20px 0px;
+    text-align: center;
+}
+.img-circle {
+    border-radius: 50%;
+    height: 100px;
+}
+.btn-blue {
+    background-color: #001436;
+    padding: 10px 20px;
+    border-radius: 4%;
+    color: #E4E4E1;
+}
+.btn-blue:hover {
+    background-color:#ba9b55;
+    color: #E4E4E1;
+}
+.list-inline{
+    list-style: none;
+    padding: 0px;
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+.list-inline i {
+    font-size: 50px;
+    color: #001436;
+}
+.list-inline i:hover{
+    color: #BA9B55;
+}
+
+/* Design adjustments */
+#introduction p {
+    margin-bottom: 40px;
+}
+
+@media(max-width:700px){
+    .container {
+        width: 600px;
+    }
+    }
+
+@media(max-width:400px){
+    .container {
+        width: 400px;
+    }
+    }
